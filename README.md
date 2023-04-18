@@ -12,3 +12,12 @@ when calling the azure function which will pass it to OpenAI call. The API key f
 5) Need an Azure Key Vault
 6) To connect the Azure Key Vault with the Function App --> go to the function app --> settings --> Identity --> Toggle Managed Identity "On"
 7) Go to Azure Key Vault --> Access Policies --> Create a new policy for the Function App
+
+
+An example of json that you would use to call the Azure Function:
+{
+    "model":"text-davinci-003",
+    "prompt":"Tell a dad joke",
+    "max_tokens":100,
+    "temperature":0.9
+}
