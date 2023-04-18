@@ -1,6 +1,6 @@
 # python_azure_function_openai
 
-Azure function written with Python that calls OpenAI with model, prompt, max_tokens, and temperature and returns the results as a text string. 
+The "completionopenai" folder contains an Azure function written with Python that calls OpenAI with model, prompt, max_tokens, and temperature and returns the results as a text string. 
 The API call to the azure function can be incorporated into any type of application. Pass the same parameters (model, prompt, max_tokens, and temperature)
 when calling the azure function which will pass it to OpenAI call. The API key for OpenAI is stored in Azure Key Vault
 
